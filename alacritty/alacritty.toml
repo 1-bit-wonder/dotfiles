@@ -1,13 +1,16 @@
 # $HOME/.config/alacritty/alacritty.toml
 # by Ni 2024-02-26
+import = [
+  "~/.config/alacritty/themes/themes/catppuccin_mocha.toml"
+]
+
 [shell]
 program = '/bin/zsh'
 
 [window]
 opacity = 0.7
-padding.x = 10
-padding.y = 10
-decorations = "full"
+decorations = "None"
+padding = { x = 5, y = 5 }
 
 [font]
 normal.family = "FiraCode Nerd Font Mono"
