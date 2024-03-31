@@ -1,14 +1,14 @@
 format = """
-[\ue0b6](#dd0b78)\
+[\ue0b6](#cba6f7)\
 $username\
 $hostname\
-[\ue0b4 ](#dd0b78)\
-[\ue0b6](#00ccff)\
+[\ue0b4 ](#cba6f7)\
+[\ue0b6](#89b4fa)\
 $directory\
-[\ue0b4 ](#00ccff)\
-[\ue0b6](#778ae3)\
+[\ue0b4 ](#89b4fa)\
+[\ue0b6](#f38ba8)\
 $memory_usage\
-[\ue0b4 ](#778ae3)\
+[\ue0b4 ](#f38ba8)\
 $git_branch\
 $git_status\
 $nodejs $rust $php
@@ -22,12 +22,12 @@ add_newline = true
 
 # You can also replace your username with a neat symbol like  to save some space
 [username]
-style_user = "bg:#dd0b78 fg:#ffffff" 
+style_user = "bg:#cba6f7 fg:#ffffff" 
 show_always = true
 format = '[$user@]($style)'
 
 [hostname]
-style = "bg:#dd0b78 fg:#ffffff"
+style = "bg:#cba6f7 fg:#ffffff"
 ssh_only = false
 disabled = false
 format = '[$hostname]($style)'
@@ -36,29 +36,29 @@ format = '[$hostname]($style)'
 format = "[$path]($style)"
 truncation_length = 3
 truncation_symbol = "…/"
-style = "bg:#00ccff fg:#ffffff"
+style = "bg:#89b4fa fg:#ffffff"
 
 [memory_usage]
 disabled = false
 threshold = -1
 symbol = " "
-style = "bg:#778ae3 fg:#ffffff"
+style = "bg:#f38ba8 fg:#ffffff"
 format = "[RAM:${ram}]($style)"
 
 [git_branch]
 symbol = ""
-style = "bg:#FCA17D fg:#ffffff"
-format = "[\ue0b6](#FCA17D)[$symbol $branch ]($style)"
+style = "bg:#fab387 fg:#ffffff"
+format = "[\ue0b6](#fab387)[$symbol $branch ]($style)"
 
 [git_status]
-style = "bg:#FCA17D fg:#ffffff"
-format = "[$all_status$ahead_behind]($style)[\ue0b4 ](#FCA17D)"
+style = "bg:#fab387 fg:#ffffff"
+format = "[$all_status$ahead_behind]($style)[\ue0b4 ](#fab387)"
 
 [nodejs]
-format = "[\ue0b6](#5cffa9)[$symbol@$version](bg:#5cffa9)[\ue0b4 ](#5cffa9)"
+format = "[\ue0b6](#a6e3a1)[$symbol@$version](bg:#a6e3a1)[\ue0b4 ](#a6e3a1)"
 
 [rust]
-format = "[\ue0b6](#5cffa9)[$symbol@$version](bg:#5cffa9)[\ue0b4 ](#5cffa9)"
+format = "[\ue0b6](#a6e3a1)[$symbol@$version](bg:#a6e3a1)[\ue0b4 ](#a6e3a1)"
 
 [time]
 style = "bold yellow"
